@@ -4,26 +4,42 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@700&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="styles/reset.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="styles/index.css">
-  <title>Counter App</title>
+  <title>Sport Counter Application</title>
 </head>
 <body>
-  <section class="counter__section">
-    <div class="counter__container">
-      <p class="counter">0</p>
-      <p class="distance">0 метров</p>
-      <button class="counter__button">+1 Бассейн</button>
-      <button class="counter__minus">-1 Бассейн</button>
-      <button class="reset__button">Сброс</button>
+  <header class="header">
+    <div class="header__container container">
+      <nav class="header__nav">
+        <ul class="header__lists">
+          <li class="header__list">
+            <img  class="header__list-image" src="images/swimmer.png" alt="">
+            <a class="header__list-link" href="">Swimming</a>
+          </li>
+          <li class="header__list">
+            <img  class="header__list-image" src="images/running-man.png" alt="">
+            <a class="header__list-link" href="">Running</a>
+          </li>
+          <li class="header__list">
+            <img  class="header__list-image" src="images/weightlifter.png" alt="">
+            <a class="header__list-link" href="">Raps</a>
+          </li>
+          <li class="header__list">
+            <img  class="header__list-image" src="images/stopwatch.png" alt="">
+            <a class="header__list-link" href="">Timer</a>
+          </li>
+        </ul>
+      </nav>
     </div>
-  
-  </section>
-  
-  <script src="scripts/index.js"></script>
+  </header>
+
+
 </body>
 </html>

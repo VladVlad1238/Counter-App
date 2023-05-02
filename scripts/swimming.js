@@ -1,8 +1,8 @@
-let counterButton = document.querySelector('.counter__button');
-let counterMinus = document.querySelector('.counter__minus');
-let resetButton = document.querySelector('.reset__button');
-let counterText = document.querySelector('.counter');
-let counterDistance = document.querySelector('.distance');
+let counterButton = document.querySelector('.js-counter__button');
+let counterMinus = document.querySelector('.js-counter__minus');
+let resetButton = document.querySelector('.js-reset__button');
+let counterText = document.querySelector('.js-counter');
+let counterDistance = document.querySelector('.js-distance');
 let counter = 0;
 let distance = 0;
 
