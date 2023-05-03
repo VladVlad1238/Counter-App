@@ -13,12 +13,18 @@
   color: #121212;
 }
 @media (max-width: 1199px) {
+  .about__application-section {
+    margin-bottom: 120px;
+  }
   .about__application-description {
     font-size: 30px;
     line-height: 35px;
   }
 }
 @media (max-width: 767px) {
+  .about__application-section {
+    margin-bottom: 80px;
+  }
   .about__application-description {
     font-size: 20px;
     line-height: 25px;

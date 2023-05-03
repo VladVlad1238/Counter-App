@@ -1,7 +1,7 @@
 @import "../styles/header.css";
 @import "../styles/gallery.css";
 @import "../styles/about.css";
-
+@import "../styles/footer.css";
 
 html {
   scroll-behavior: smooth;
