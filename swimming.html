@@ -4,25 +4,78 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="styles/reset.css">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="styles/swimming.css">
   <link rel="stylesheet" href="styles/index.css">
   <title>Counter App</title>
 </head>
 <body>
+  <header class="header">
+    <div class="header__container container">
+      <nav class="header__nav">
+        <ul class="header__lists">
+          <li class="header__list">
+            <img  class="header__list-image" src="images/swimmer.png" alt="">
+            <a class="header__list-link" href="swimming.html">Swimming</a>
+          </li>
+          <li class="header__list">
+            <img  class="header__list-image" src="images/running-man.png" alt="">
+            <a class="header__list-link" href="">Running</a>
+          </li>
+          <li class="header__list">
+            <img  class="header__list-image" src="images/weightlifter.png" alt="">
+            <a class="header__list-link" href="">Reps</a>
+          </li>
+          <li class="header__list">
+            <img  class="header__list-image" src="images/stopwatch.png" alt="">
+            <a class="header__list-link" href="">Timer</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
   <section class="counter__section">
     <div class="counter__container">
+      <p class="counter__title">Swimming counter Application</p>
       <p class="js-counter counter">0</p>
-      <p class="js-distance distance">0 метров</p>
-      <button class="js-counter__button counter__button">+1 Бассейн</button>
-      <button class="js-counter__minus counter__minus">-1 Бассейн</button>
-      <button class="js-reset__button reset__button">Сброс</button>
+      <p class="js-distance distance">0 meters</p>
+      <button class="js-counter__button counter__button">+1 Pool</button>
+      <button class="js-counter__minus counter__minus">-1 Pool</button>
+      <button class="js-reset__button reset__button">Reset</button>
     </div>
-  
   </section>
+
+  <footer class="footer">
+    <div class="footer__container container">
+      <nav class="footer__nav">
+        <ul class="footer__lists">
+          <li class="footer__list">
+            <img  class="footer__list-image" src="images/swimmer.png" alt="">
+            <a class="footer__list-link" href="swimming.html">Swimming</a>
+          </li>
+          <li class="footer__list">
+            <img  class="footer__list-image" src="images/running-man.png" alt="">
+            <a class="footer__list-link" href="">Running</a>
+          </li>
+          <li class="footer__list">
+            <img  class="footer__list-image" src="images/weightlifter.png" alt="">
+            <a class="footer__list-link" href="">Reps</a>
+          </li>
+          <li class="footer__list">
+            <img  class="footer__list-image" src="images/stopwatch.png" alt="">
+            <a class="footer__list-link" href="">Timer</a>
+          </li>
+        </ul>
+      </nav>
+      <p class="footer__text">All rights reserved 2023</p>
+    </div>
+  </footer>
   
   <script src="scripts/swimming.js"></script>
 </body>
