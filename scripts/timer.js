@@ -1,4 +1,4 @@
-let timerTitle = document.querySelector('.js-time-counter')[0];
+let timerTitle = document.querySelector('.js-time-counter');
 let start = document.querySelector('.js-start-button');
 let timerStopButton = document.querySelector('.js-stop-button');
 let timerResetButton = document.querySelector('.js-reset-button');
@@ -30,7 +30,6 @@ function timer() {
     t = setTimeout(add, 1000);
 }
 
-timer();
 start.onclick = timer;
 timerStopButton.onclick = function() {
     clearTimeout(t);
