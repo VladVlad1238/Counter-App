@@ -1,4 +1,4 @@
-let timerTitle = document.getElementsByTagName('h1')[0];
+let timerTitle = document.querySelector('.js-time-counter')[0];
 let start = document.querySelector('.js-start-button');
 let timerStopButton = document.querySelector('.js-stop-button');
 let timerResetButton = document.querySelector('.js-reset-button');
@@ -21,9 +21,9 @@ function tick(){
 
 function add() {
     tick();
-    timerTitle.textContent = (hrs > 9 ? hrs : "0" + hrs)
-                     + ":" + (min > 9 ? min : "0" + min)
-                     + ":" + (sec > 9 ? sec : "0" + sec);
+    timerTitle.textContent = (hrs > 9 ? hrs : '0' + hrs)
+                     + ":" + (min > 9 ? min : '0' + min)
+                     + ":" + (sec > 9 ? sec : '0' + sec);
     timer();
 }
 function timer() {
