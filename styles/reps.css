@@ -1,0 +1,81 @@
+.counter__section {
+  margin-bottom: 150px;
+}
+.counter__container {
+  margin: 0 auto;
+  margin-top: 100px;
+  width: 555px;
+  height: 620px;
+  background-color: white;
+  border: 3px solid black;
+}
+.counter__title {
+  margin-bottom: 10px;
+  padding-top: 25px;
+  font-size: 25px;
+  line-height: 15px;
+  font-weight: bolder;
+  text-align: center;
+}
+.counter {
+  padding-top: 10px;
+}
+.counter,
+.distance {
+  margin-bottom: 36px;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  color: black;
+}
+button {
+  margin: 0 auto;
+  display: block;
+  width: 500px;
+  height: 100px;
+  font-size: 32px;
+  line-height: 44px;
+  color: white;
+  font-family: 'Manrope', sans-serif;
+  cursor: pointer;
+}
+button:hover {
+  border: 2px solid black;
+  background: white;
+  color: black;
+}
+.counter__button,
+.counter__minus {
+  margin-bottom: 36px;
+  background: black;
+}
+.reset__button {
+  background: #e92701;
+}
+.reset__button:hover {
+  border: 2px solid #e92701;
+  background: white;
+  color: #e92701;
+
+}
+@media (max-width: 1199px) {
+  .counter__section {
+    margin-bottom: 120px;
+  }
+}
+@media (max-width: 767px) {
+  .counter__title {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .counter__section {
+    margin-bottom: 80px;
+  }
+  .counter__container{
+    width: 100%;
+    padding: 0 13px;
+  }
+  button {
+    width: 100%;
+  }
+}
